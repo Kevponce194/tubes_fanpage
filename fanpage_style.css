@@ -1,0 +1,182 @@
+div {
+    margin-top: 20px;
+}
+
+#wrap {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #e4e2d2;
+}
+
+h1 {
+    text-align: center;
+    color: #95b46b;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 38px;
+    line-height: 2px;
+    padding-top: 10px;
+}
+
+h2 {
+    color: #84a05e;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    /*line-height: 0px;
+    padding-top: 0px10px;*/
+}
+
+h3 {
+    color: #507221;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+img {
+    border-radius: 10px;
+    border: #95b46b solid 10px;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    text-align: justify;
+    width: 600px;
+}
+
+div.most {
+    width: 230px;
+}
+
+#most {
+    width: 230px;
+}
+
+a {
+    color: #507221;
+}
+
+/* This formats the link for the Check out this website */
+.nextto {
+    font-size: 18px;
+}
+
+.tighter {
+    line-height: 0px;
+    padding-top: 12px;
+}
+
+.excerpt {
+    font-size: 10px;
+    text-align: center;
+}
+
+.big {
+    font-size: 48px;
+}
+
+.tiny {
+    font-size: 7px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.diffam {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.combo {
+    font-weight: bold;
+    color: orange;
+    font-size: 24px;
+}
+
+.styledFont {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#styledImage {
+    border: 15px solid orange;
+}
+
+
+/*-------------TABLE------------------*/
+table {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-collapse: collapse;
+    width: 600px;
+}
+
+td,
+th {
+    border: 2px solid #95b46b;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #507221;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #dbe1c7;
+}
+
+/*-------------Unordered list------------------*/
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 120%;
+}
+
+ul {
+    columns: 4;
+    list-style: none;
+}
+
+ul li::before {
+    content: "\2022";
+    color: #95b46b;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -2em;
+}
+
+.check_out {
+    background-color: #e4d8a3;
+    width: 580px;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 20px;
+}
+
+.most_comm {
+    border: 2px solid #507221;
+    background-color: #e4d8a3;
+    width: 576px;
+    padding: 4px 0px 10px 20px;
+}
+
+/* override of img border */
+.difimgbord {
+    float: right;
+    border: 5px solid white;
+    margin: 0px 20px 0px 0px;
+}
+
+/* line above disclaimer */
+hr {
+    width: 600px;
+    border: 1px solid #507221;
+}
